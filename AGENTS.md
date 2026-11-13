@@ -33,12 +33,3 @@ When instructed to create a new component (e.g., `Card`), ALWAYS generate the fo
 1. `[ComponentName].tsx` (Component logic and UI)
 2. `[ComponentName].stories.tsx` (Storybook documentation)
 3. `index.ts` (Re-export file containing: `export * from './[ComponentName]';`)
-
-## 5. CLI-Specific Output Rules (STRICTLY ENFORCED)
-
-Since you are operating as a headless CLI agent, you must follow these formatting rules to prevent parsing errors:
-
-- DO NOT output conversational text, explanations, or pleasantries. Output CODE ONLY.
-- Begin EVERY code block with the absolute file path as a comment on the very first line (e.g., `// File path: src/components/Button/Button.tsx`).
-- ALWAYS generate the complete file content. Never output truncated snippets or placeholders (no `// ... rest of code`).
-- Output the code exclusively inside Markdown code blocks.
