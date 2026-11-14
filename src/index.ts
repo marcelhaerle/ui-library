@@ -5,6 +5,7 @@ export * from './components/Button';
 export * from './components/FormField';
 export * from './components/Input';
 export * from './components/Label';
+export * from './components/Select';
 export * from './components/Skeleton';
 export * from './components/Spinner';
 export * from './components/Textarea';

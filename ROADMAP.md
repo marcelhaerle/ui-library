@@ -111,7 +111,7 @@ Multi-line text input with optional auto-resize and character count.
   - `maxLength`: `number`
   - Native: `React.TextareaHTMLAttributes<HTMLTextAreaElement>`
 
-### 8. `Select`
+### 8. `Select` ✅ _(Completed)_
 
 Accessible single or multi-option dropdown selector.
 
