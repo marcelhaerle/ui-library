@@ -125,7 +125,7 @@ Accessible single or multi-option dropdown selector.
   - `searchable`: `boolean`
   - `disabled`: `boolean`
 
-### 9. `Checkbox`
+### 9. `Checkbox` ✅ _(Completed)_
 
 Binary or indeterminate selection control.
 
