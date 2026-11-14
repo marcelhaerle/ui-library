@@ -42,7 +42,7 @@ Consistent typographic scale and semantic text rendering for Light and Dark mode
   - `tone`: `'default' | 'muted' | 'primary' | 'success' | 'warning' | 'danger'`
   - `truncate`: `boolean`
 
-### 3. `Badge`
+### 3. `Badge` ✅ _(Completed)_
 
 Compact status descriptor, category tag, or counter.
 
