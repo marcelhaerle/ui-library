@@ -73,7 +73,7 @@ Visual placeholders for asynchronous loading states.
 
 Accessible, composable form inputs with built-in label, helper text, and validation state support.
 
-### 5. `FormField` & `Label`
+### 5. `FormField` & `Label` ✅ _(Completed)_
 
 Wrapper that wires `id`, `aria-describedby`, and `aria-invalid` automatically to child form controls.
 
@@ -85,7 +85,7 @@ Wrapper that wires `id`, `aria-describedby`, and `aria-invalid` automatically to
   - `errorText`: `ReactNode`
   - `disabled`: `boolean`
 
-### 6. `Input`
+### 6. `Input` ✅ _(Completed)_
 
 Single-line text input with optional leading/trailing icons or actions.
 
