@@ -7,4 +7,5 @@ export * from './components/Input';
 export * from './components/Label';
 export * from './components/Skeleton';
 export * from './components/Spinner';
+export * from './components/Textarea';
 export * from './components/Typography';

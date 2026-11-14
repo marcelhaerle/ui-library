@@ -99,7 +99,7 @@ Single-line text input with optional leading/trailing icons or actions.
   - `fullWidth`: `boolean` (default: `true`)
   - Native: `Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'>`
 
-### 7. `Textarea`
+### 7. `Textarea` ✅ _(Completed)_
 
 Multi-line text input with optional auto-resize and character count.
 
