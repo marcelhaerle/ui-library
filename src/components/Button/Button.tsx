@@ -7,52 +7,52 @@ import { cn } from '../../utils/cn';
 
 export const buttonVariants = cva(
   [
-    'relative isolate overflow-hidden',
-    'inline-flex items-center justify-center font-medium select-none',
-    'rounded-none',
-    'transition-colors duration-300 ease-in-out',
-    'before:pointer-events-none before:absolute before:inset-0 before:-z-10',
-    'before:origin-left before:scale-x-0 before:transition-transform before:duration-300 before:ease-in-out',
-    'hover:before:scale-x-100',
-    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2',
-    'disabled:pointer-events-none disabled:opacity-50',
-    'cursor-pointer',
+    'mhui:relative mhui:isolate mhui:overflow-hidden',
+    'mhui:inline-flex mhui:items-center mhui:justify-center mhui:font-medium mhui:select-none',
+    'mhui:rounded-none',
+    'mhui:transition-colors mhui:duration-300 mhui:ease-in-out',
+    'mhui:before:pointer-events-none mhui:before:absolute mhui:before:inset-0 mhui:before:-z-10',
+    'mhui:before:origin-left mhui:before:scale-x-0 mhui:before:transition-transform mhui:before:duration-300 mhui:before:ease-in-out',
+    'mhui:hover:before:scale-x-100',
+    'mhui:focus-visible:outline-none mhui:focus-visible:ring-2 mhui:focus-visible:ring-offset-2',
+    'mhui:disabled:pointer-events-none mhui:disabled:opacity-50',
+    'mhui:cursor-pointer',
   ],
   {
     variants: {
       variant: {
         primary:
-          'bg-blue-900 text-white before:bg-blue-700 active:before:bg-blue-950 focus-visible:ring-blue-900',
+          'mhui:bg-blue-900 mhui:text-white mhui:before:bg-blue-700 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900',
         secondary:
-          'bg-slate-600 text-white before:bg-slate-500 active:before:bg-slate-700 focus-visible:ring-slate-600',
+          'mhui:bg-slate-600 mhui:text-white mhui:before:bg-slate-500 mhui:active:before:bg-slate-700 mhui:focus-visible:ring-slate-600',
         outline:
-          'border border-blue-900 bg-transparent text-blue-900 hover:text-white before:bg-blue-900 active:before:bg-blue-950 focus-visible:ring-blue-900',
-        text: 'bg-transparent text-blue-900 hover:text-blue-950 before:bg-blue-100 active:before:bg-blue-200 focus-visible:ring-blue-900',
+          'mhui:border mhui:border-blue-900 mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-white mhui:before:bg-blue-900 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900',
+        text: 'mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-blue-950 mhui:before:bg-blue-100 mhui:active:before:bg-blue-200 mhui:focus-visible:ring-blue-900',
         success:
-          'bg-emerald-800 text-white before:bg-emerald-600 active:before:bg-emerald-900 focus-visible:ring-emerald-800',
+          'mhui:bg-emerald-800 mhui:text-white mhui:before:bg-emerald-600 mhui:active:before:bg-emerald-900 mhui:focus-visible:ring-emerald-800',
         warning:
-          'bg-amber-600 text-white before:bg-amber-500 active:before:bg-amber-700 focus-visible:ring-amber-600',
+          'mhui:bg-amber-600 mhui:text-white mhui:before:bg-amber-500 mhui:active:before:bg-amber-700 mhui:focus-visible:ring-amber-600',
         danger:
-          'bg-red-700 text-white before:bg-red-600 active:before:bg-red-800 focus-visible:ring-red-700',
+          'mhui:bg-red-700 mhui:text-white mhui:before:bg-red-600 mhui:active:before:bg-red-800 mhui:focus-visible:ring-red-700',
       },
       size: {
-        xs: 'h-7 px-2.5 text-xs gap-1.5',
-        sm: 'h-8 px-3 text-sm gap-1.5',
-        md: 'h-10 px-4 text-sm gap-2',
-        lg: 'h-12 px-6 text-base gap-2.5',
-        xl: 'h-14 px-8 text-lg gap-3',
+        xs: 'mhui:h-7 mhui:px-2.5 mhui:text-xs mhui:gap-1.5',
+        sm: 'mhui:h-8 mhui:px-3 mhui:text-sm mhui:gap-1.5',
+        md: 'mhui:h-10 mhui:px-4 mhui:text-sm mhui:gap-2',
+        lg: 'mhui:h-12 mhui:px-6 mhui:text-base mhui:gap-2.5',
+        xl: 'mhui:h-14 mhui:px-8 mhui:text-lg mhui:gap-3',
       },
       iconOnly: {
-        true: 'p-0',
+        true: 'mhui:p-0',
         false: '',
       },
     },
     compoundVariants: [
-      { size: 'xs', iconOnly: true, className: 'h-7 w-7 px-0' },
-      { size: 'sm', iconOnly: true, className: 'h-8 w-8 px-0' },
-      { size: 'md', iconOnly: true, className: 'h-10 w-10 px-0' },
-      { size: 'lg', iconOnly: true, className: 'h-12 w-12 px-0' },
-      { size: 'xl', iconOnly: true, className: 'h-14 w-14 px-0' },
+      { size: 'xs', iconOnly: true, className: 'mhui:h-7 mhui:w-7 mhui:px-0' },
+      { size: 'sm', iconOnly: true, className: 'mhui:h-8 mhui:w-8 mhui:px-0' },
+      { size: 'md', iconOnly: true, className: 'mhui:h-10 mhui:w-10 mhui:px-0' },
+      { size: 'lg', iconOnly: true, className: 'mhui:h-12 mhui:w-12 mhui:px-0' },
+      { size: 'xl', iconOnly: true, className: 'mhui:h-14 mhui:w-14 mhui:px-0' },
     ],
     defaultVariants: {
       variant: 'primary',
@@ -117,11 +117,11 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {...props}
       >
         {Icon && (isIconOnly || iconPosition === 'left') && (
-          <Icon size={iconPixels} className="shrink-0" aria-hidden="true" />
+          <Icon size={iconPixels} className="mhui:shrink-0" aria-hidden="true" />
         )}
         {!isIconOnly && children}
         {Icon && !isIconOnly && iconPosition === 'right' && (
-          <Icon size={iconPixels} className="shrink-0" aria-hidden="true" />
+          <Icon size={iconPixels} className="mhui:shrink-0" aria-hidden="true" />
         )}
       </button>
     );

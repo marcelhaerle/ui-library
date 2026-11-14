@@ -26,6 +26,7 @@ by Next.js (App Router) or pure React frontend applications.
 - **Corporate Identity:** The primary CI colors are `blue-900` (`oklch(37.9% 0.146 265.522)`) and `emerald-800` (`oklch(43.2% 0.095 166.913)`).
   Strictly apply these Tailwind classes when designing default variants. Prefer using spacing instead of borders to
   separate objects. Do not use rounded corner. The style should be modern and simple, but very professional.
+- **Tailwind Class Prefix:** Always prefix all Tailwind CSS classes and variant chains with `mhui:` (e.g., `mhui:bg-blue-900`, `mhui:hover:before:scale-x-100`) to prevent style collisions in consuming applications.
 - **Tests:** Implement tests where real behaviour is tested. Do not test simple visual appearance.
 
 ## 4. File Structure Constraints

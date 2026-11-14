@@ -74,4 +74,18 @@ describe('Button', () => {
     expect(button.textContent).toBe('');
     expect(button.querySelector('svg')).not.toBeNull();
   });
+
+  it('merges conflicting mhui-prefixed classes while preserving external host classes', () => {
+    render(
+      <Button className="custom-host-class px-2 mhui:px-10" size="md">
+        Custom
+      </Button>,
+    );
+
+    const button = screen.getByRole('button', { name: 'Custom' });
+    expect(button.classList.contains('mhui:px-10')).toBe(true);
+    expect(button.classList.contains('mhui:px-4')).toBe(false);
+    expect(button.classList.contains('custom-host-class')).toBe(true);
+    expect(button.classList.contains('px-2')).toBe(true);
+  });
 });

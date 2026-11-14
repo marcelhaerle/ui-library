@@ -141,15 +141,17 @@ export const IconOnly: Story = {
 
 export const AllVariantsAndSizes: Story = {
   render: () => (
-    <div className="flex flex-col gap-12 p-6">
-      <section className="flex flex-col gap-4">
-        <h2 className="text-lg font-semibold text-slate-900">
+    <div className="mhui:flex mhui:flex-col mhui:gap-12 mhui:p-6">
+      <section className="mhui:flex mhui:flex-col mhui:gap-4">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
           All Variants & Sizes (Without Icon)
         </h2>
-        <div className="flex flex-col gap-6">
+        <div className="mhui:flex mhui:flex-col mhui:gap-6">
           {variants.map((variant) => (
-            <div key={variant} className="flex flex-wrap items-center gap-4">
-              <span className="w-24 text-sm font-medium text-slate-600 capitalize">{variant}</span>
+            <div key={variant} className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4">
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+                {variant}
+              </span>
               {sizes.map((size) => (
                 <Button key={`${variant}-${size}`} variant={variant} size={size}>
                   {`${variant} (${size})`}
@@ -160,12 +162,19 @@ export const AllVariantsAndSizes: Story = {
         </div>
       </section>
 
-      <section className="flex flex-col gap-4">
-        <h2 className="text-lg font-semibold text-slate-900">All Variants & Sizes (With Icon)</h2>
-        <div className="flex flex-col gap-6">
+      <section className="mhui:flex mhui:flex-col mhui:gap-4">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
+          All Variants & Sizes (With Icon)
+        </h2>
+        <div className="mhui:flex mhui:flex-col mhui:gap-6">
           {variants.map((variant) => (
-            <div key={`${variant}-icon`} className="flex flex-wrap items-center gap-4">
-              <span className="w-24 text-sm font-medium text-slate-600 capitalize">{variant}</span>
+            <div
+              key={`${variant}-icon`}
+              className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4"
+            >
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+                {variant}
+              </span>
               {sizes.map((size) => (
                 <Button
                   key={`${variant}-${size}-icon`}
@@ -181,12 +190,19 @@ export const AllVariantsAndSizes: Story = {
         </div>
       </section>
 
-      <section className="flex flex-col gap-4">
-        <h2 className="text-lg font-semibold text-slate-900">All Variants & Sizes (Icon Only)</h2>
-        <div className="flex flex-col gap-6">
+      <section className="mhui:flex mhui:flex-col mhui:gap-4">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
+          All Variants & Sizes (Icon Only)
+        </h2>
+        <div className="mhui:flex mhui:flex-col mhui:gap-6">
           {variants.map((variant) => (
-            <div key={`${variant}-icon-only`} className="flex flex-wrap items-center gap-4">
-              <span className="w-24 text-sm font-medium text-slate-600 capitalize">{variant}</span>
+            <div
+              key={`${variant}-icon-only`}
+              className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4"
+            >
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+                {variant}
+              </span>
               {sizes.map((size) => (
                 <Button
                   key={`${variant}-${size}-icon-only`}
