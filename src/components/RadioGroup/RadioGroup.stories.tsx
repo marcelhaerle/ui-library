@@ -6,7 +6,7 @@ import { Radio, RadioGroup, type RadioSize } from './RadioGroup';
 const sizes: RadioSize[] = ['sm', 'md', 'lg'];
 
 const meta: Meta<typeof RadioGroup> = {
-  title: 'Components/RadioGroup',
+  title: 'Forms/RadioGroup',
   component: RadioGroup,
   tags: ['autodocs'],
   argTypes: {

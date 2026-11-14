@@ -15,7 +15,7 @@ const variants: BadgeVariant[] = [
 const sizes: BadgeSize[] = ['sm', 'md', 'lg'];
 
 const meta: Meta<typeof Badge> = {
-  title: 'Components/Badge',
+  title: 'Primitives/Badge',
   component: Badge,
   tags: ['autodocs'],
   argTypes: {

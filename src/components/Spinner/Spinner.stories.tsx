@@ -5,7 +5,7 @@ const sizes: SpinnerSize[] = ['xs', 'sm', 'md', 'lg', 'xl'];
 const variants: SpinnerVariant[] = ['primary', 'secondary', 'current'];
 
 const meta: Meta<typeof Spinner> = {
-  title: 'Components/Spinner',
+  title: 'Primitives/Spinner',
   component: Spinner,
   tags: ['autodocs'],
   argTypes: {

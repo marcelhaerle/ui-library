@@ -7,7 +7,7 @@ const sizes: InputSize[] = ['sm', 'md', 'lg'];
 const states: InputState[] = ['default', 'error', 'success'];
 
 const meta: Meta<typeof Input> = {
-  title: 'Components/Input',
+  title: 'Forms/Input',
   component: Input,
   tags: ['autodocs'],
   argTypes: {

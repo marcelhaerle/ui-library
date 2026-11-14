@@ -24,7 +24,7 @@ const variants: ButtonVariant[] = [
 const sizes: ButtonSize[] = ['xs', 'sm', 'md', 'lg', 'xl'];
 
 const meta: Meta<typeof Button> = {
-  title: 'Components/Button',
+  title: 'Primitives/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {

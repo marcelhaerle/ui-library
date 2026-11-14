@@ -6,7 +6,7 @@ const sizes: TextareaSize[] = ['sm', 'md', 'lg'];
 const states: TextareaState[] = ['default', 'error', 'success'];
 
 const meta: Meta<typeof Textarea> = {
-  title: 'Components/Textarea',
+  title: 'Forms/Textarea',
   component: Textarea,
   tags: ['autodocs'],
   argTypes: {

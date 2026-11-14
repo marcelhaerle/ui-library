@@ -4,7 +4,7 @@ import { Label, type LabelSize } from './Label';
 const sizes: LabelSize[] = ['sm', 'md', 'lg'];
 
 const meta: Meta<typeof Label> = {
-  title: 'Components/Label',
+  title: 'Forms/Label',
   component: Label,
   tags: ['autodocs'],
   argTypes: {

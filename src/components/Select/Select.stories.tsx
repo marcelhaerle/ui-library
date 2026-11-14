@@ -28,7 +28,7 @@ const sizes: SelectSize[] = ['sm', 'md', 'lg'];
 const states: SelectState[] = ['default', 'error', 'success'];
 
 const meta: Meta<typeof Select> = {
-  title: 'Components/Select',
+  title: 'Forms/Select',
   component: Select,
   tags: ['autodocs'],
   argTypes: {

@@ -17,7 +17,7 @@ const weights: TypographyWeight[] = ['normal', 'medium', 'semibold', 'bold'];
 const tones: TypographyTone[] = ['default', 'muted', 'primary', 'success', 'warning', 'danger'];
 
 const meta: Meta<typeof Heading> = {
-  title: 'Components/Typography',
+  title: 'Primitives/Typography',
   component: Heading,
   tags: ['autodocs'],
   argTypes: {
