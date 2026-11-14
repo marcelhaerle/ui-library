@@ -54,7 +54,7 @@ Compact status descriptor, category tag, or counter.
   - `onRemove`: `() => void`
   - Native: `React.HTMLAttributes<HTMLSpanElement>`
 
-### 4. `Spinner` / `Skeleton`
+### 4. `Spinner` / `Skeleton` ✅ _(Completed)_
 
 Visual placeholders for asynchronous loading states.
 
