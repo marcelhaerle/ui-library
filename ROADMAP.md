@@ -156,7 +156,7 @@ Mutually exclusive selection from a set of options.
   - `description`: `ReactNode`
   - `size`: `'sm' | 'md' | 'lg'`
 
-### 11. `Switch`
+### 11. `Switch` ✅ _(Completed)_
 
 Immediate binary toggle control (`role="switch"`).
 

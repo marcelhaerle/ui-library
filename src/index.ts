@@ -10,5 +10,6 @@ export * from './components/RadioGroup';
 export * from './components/Select';
 export * from './components/Skeleton';
 export * from './components/Spinner';
+export * from './components/Switch';
 export * from './components/Textarea';
 export * from './components/Typography';
