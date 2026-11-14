@@ -198,7 +198,7 @@ Layout primitives for consistent vertical/horizontal spacing without manual marg
   - `columns`: `1 | 2 | 3 | 4 | 6 | 12`
   - `gap`: `'none' | 'xs' | 'sm' | 'md' | 'lg' | 'xl'`
 
-### 14. `Accordion` (`Accordion`, `AccordionItem`, `AccordionTrigger`, `AccordionContent`)
+### 14. `Accordion` (`Accordion`, `AccordionItem`, `AccordionTrigger`, `AccordionContent`) ✅ _(Completed)_
 
 Vertically stacked collapsible sections with WAI-ARIA disclosure keyboard navigation.
 
