@@ -1,26 +1,26 @@
-# `@marcelhaerle/ui-library`
+# `@haerlemarcel/ui-library`
 
 An accessible, modern React 19+ and Next.js (App Router) UI component library built with TypeScript and Tailwind CSS v4.
 
 ## Installation
 
 ```bash
-npm install @marcelhaerle/ui-library
+npm install @haerlemarcel/ui-library
 ```
 
 Import the library stylesheet once at the root of your application (e.g., `app/layout.tsx` in Next.js or `main.tsx` in Vite/React):
 
 ```tsx
-import '@marcelhaerle/ui-library/styles.css';
+import '@haerlemarcel/ui-library/styles.css';
 ```
 
-> **Note:** All Tailwind utility classes and CSS theme variables inside `@marcelhaerle/ui-library` are namespaced with the `mhui` prefix (e.g., `mhui:bg-blue-900`, `--mhui-spacing`) so they never collide with or override your host application's styles.
+> **Note:** All Tailwind utility classes and CSS theme variables inside `@haerlemarcel/ui-library` are namespaced with the `mhui` prefix (e.g., `mhui:bg-blue-900`, `--mhui-spacing`) so they never collide with or override your host application's styles.
 
 ---
 
 ## Light & Dark Mode
 
-All components in `@marcelhaerle/ui-library` support **Light** and **Dark** mode out of the box with zero runtime overhead.
+All components in `@haerlemarcel/ui-library` support **Light** and **Dark** mode out of the box with zero runtime overhead.
 
 Dark mode styles activate automatically whenever an ancestor element (such as `<html>`, `<body>`, or a section container) has either:
 
@@ -41,7 +41,7 @@ Create a `ThemeProvider` wrapper and include it in your root `app/layout.tsx`:
 // app/layout.tsx
 import type { ReactNode } from 'react';
 import { ThemeProvider } from 'next-themes';
-import '@marcelhaerle/ui-library/styles.css';
+import '@haerlemarcel/ui-library/styles.css';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -63,7 +63,7 @@ Toggle the theme from any client component:
 'use client';
 
 import { useTheme } from 'next-themes';
-import { Button } from '@marcelhaerle/ui-library';
+import { Button } from '@haerlemarcel/ui-library';
 
 export const ThemeToggle = () => {
   const { resolvedTheme, setTheme } = useTheme();
@@ -81,8 +81,8 @@ export const ThemeToggle = () => {
 Toggle the `.dark` class (or `data-theme="dark"` attribute) on `document.documentElement`:
 
 ```tsx
-import { Button } from '@marcelhaerle/ui-library';
-import '@marcelhaerle/ui-library/styles.css';
+import { Button } from '@haerlemarcel/ui-library';
+import '@haerlemarcel/ui-library/styles.css';
 
 export const App = () => {
   const toggleDarkMode = () => {
