@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -12,9 +13,13 @@ export default defineConfig({
       exclude: ['**/*.stories.tsx', '**/*.test.tsx', '**/*.spec.tsx'],
     }),
   ],
+  test: {
+    environment: 'jsdom',
+    globals: true,
+  },
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: resolve(import.meta.dirname, 'src/index.ts'),
       name: 'UILibrary',
       formats: ['es', 'cjs'],
       fileName: (format) => (format === 'es' ? 'index.js' : 'index.cjs'),
