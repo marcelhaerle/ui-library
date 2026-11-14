@@ -184,7 +184,7 @@ Surface container using background elevation and generous internal spacing.
   - `interactive`: `boolean` (applies subtle hover transition when clickable)
   - `as`: `'div' | 'article' | 'section'`
 
-### 13. `Stack` & `Grid`
+### 13. `Stack` & `Grid` ✅ _(Completed)_
 
 Layout primitives for consistent vertical/horizontal spacing without manual margin utilities.
 
