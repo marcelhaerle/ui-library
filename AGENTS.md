@@ -37,3 +37,16 @@ When instructed to create a new component (e.g., `Card`), ALWAYS generate the fo
 1. `[ComponentName].tsx` (Component logic and UI)
 2. `[ComponentName].stories.tsx` (Storybook documentation)
 3. `index.ts` (Re-export file containing: `export * from './[ComponentName]';`)
+
+## 5. Component Roadmap
+
+Refer to [ROADMAP.md](./ROADMAP.md) for the planned phases, component specifications, and expected TypeScript props. When implementing a component listed in `ROADMAP.md`:
+
+- Follow its specified props and variants as the baseline contract.
+- Mark the component as completed (`✅ *(Completed)*`) in `ROADMAP.md` once implemented and tested.
+
+## 5. Component Roadmap
+
+Refer to [ROADMAP.md](./ROADMAP.md) for the planned phases, component specifications, and expected TypeScript props. When implementing a component listed in `ROADMAP.md`:
+- Follow its specified props and variants as the baseline contract.
+- Mark the component as completed (`✅ *(Completed)*`) in `ROADMAP.md` once implemented and tested.
