@@ -139,7 +139,7 @@ Binary or indeterminate selection control.
   - `error`: `boolean`
   - Native: `Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size' | 'type'>`
 
-### 10. `RadioGroup` & `Radio`
+### 10. `RadioGroup` & `Radio` ✅ _(Completed)_
 
 Mutually exclusive selection from a set of options.
 
