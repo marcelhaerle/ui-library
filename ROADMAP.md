@@ -174,7 +174,7 @@ Immediate binary toggle control (`role="switch"`).
 
 Structural components that organize content using spacing and subtle surface contrast rather than borders.
 
-### 12. `Card` (`Card`, `CardHeader`, `CardBody`, `CardFooter`)
+### 12. `Card` (`Card`, `CardHeader`, `CardBody`, `CardFooter`) ✅ _(Completed)_
 
 Surface container using background elevation and generous internal spacing.
 
