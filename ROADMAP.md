@@ -25,7 +25,7 @@ Interactive trigger for actions and form submissions with directional hover colo
   - `fullWidth` _(planned enhancement)_: `boolean`
   - Native: `React.ButtonHTMLAttributes<HTMLButtonElement>`
 
-### 2. `Typography` (`Heading`, `Text`, `Code`)
+### 2. `Typography` (`Heading`, `Text`, `Code`) ✅ _(Completed)_
 
 Consistent typographic scale and semantic text rendering for Light and Dark modes.
 
