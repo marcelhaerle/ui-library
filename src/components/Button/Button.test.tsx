@@ -75,9 +75,13 @@ describe('Button', () => {
     expect(button.querySelector('svg')).not.toBeNull();
   });
 
-  it('merges conflicting mhui-prefixed classes while preserving external host classes', () => {
+  it('merges conflicting mhui-prefixed light and dark classes while preserving external host classes', () => {
     render(
-      <Button className="custom-host-class px-2 mhui:px-10" size="md">
+      <Button
+        className="custom-host-class px-2 mhui:px-10 mhui:dark:bg-blue-700"
+        variant="primary"
+        size="md"
+      >
         Custom
       </Button>,
     );
@@ -85,6 +89,8 @@ describe('Button', () => {
     const button = screen.getByRole('button', { name: 'Custom' });
     expect(button.classList.contains('mhui:px-10')).toBe(true);
     expect(button.classList.contains('mhui:px-4')).toBe(false);
+    expect(button.classList.contains('mhui:dark:bg-blue-700')).toBe(true);
+    expect(button.classList.contains('mhui:dark:bg-blue-800')).toBe(false);
     expect(button.classList.contains('custom-host-class')).toBe(true);
     expect(button.classList.contains('px-2')).toBe(true);
   });

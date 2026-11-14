@@ -143,13 +143,13 @@ export const AllVariantsAndSizes: Story = {
   render: () => (
     <div className="mhui:flex mhui:flex-col mhui:gap-12 mhui:p-6">
       <section className="mhui:flex mhui:flex-col mhui:gap-4">
-        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900 mhui:dark:text-slate-100">
           All Variants & Sizes (Without Icon)
         </h2>
         <div className="mhui:flex mhui:flex-col mhui:gap-6">
           {variants.map((variant) => (
             <div key={variant} className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4">
-              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize mhui:dark:text-slate-400">
                 {variant}
               </span>
               {sizes.map((size) => (
@@ -163,7 +163,7 @@ export const AllVariantsAndSizes: Story = {
       </section>
 
       <section className="mhui:flex mhui:flex-col mhui:gap-4">
-        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900 mhui:dark:text-slate-100">
           All Variants & Sizes (With Icon)
         </h2>
         <div className="mhui:flex mhui:flex-col mhui:gap-6">
@@ -172,7 +172,7 @@ export const AllVariantsAndSizes: Story = {
               key={`${variant}-icon`}
               className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4"
             >
-              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize mhui:dark:text-slate-400">
                 {variant}
               </span>
               {sizes.map((size) => (
@@ -191,7 +191,7 @@ export const AllVariantsAndSizes: Story = {
       </section>
 
       <section className="mhui:flex mhui:flex-col mhui:gap-4">
-        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900">
+        <h2 className="mhui:text-lg mhui:font-semibold mhui:text-slate-900 mhui:dark:text-slate-100">
           All Variants & Sizes (Icon Only)
         </h2>
         <div className="mhui:flex mhui:flex-col mhui:gap-6">
@@ -200,7 +200,7 @@ export const AllVariantsAndSizes: Story = {
               key={`${variant}-icon-only`}
               className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-4"
             >
-              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize">
+              <span className="mhui:w-24 mhui:text-sm mhui:font-medium mhui:text-slate-600 mhui:capitalize mhui:dark:text-slate-400">
                 {variant}
               </span>
               {sizes.map((size) => (
@@ -217,6 +217,34 @@ export const AllVariantsAndSizes: Story = {
           ))}
         </div>
       </section>
+    </div>
+  ),
+};
+
+export const LightAndDarkShowcase: Story = {
+  render: () => (
+    <div className="lg:mhui:grid-cols-2 mhui:grid mhui:grid-cols-1 mhui:gap-8">
+      <div className="mhui:flex mhui:flex-col mhui:gap-4 mhui:bg-white mhui:p-6">
+        <h3 className="mhui:text-base mhui:font-semibold mhui:text-slate-900">Light Mode</h3>
+        <div className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-3">
+          {variants.map((variant) => (
+            <Button key={`light-${variant}`} variant={variant} icon={Download}>
+              {variant}
+            </Button>
+          ))}
+        </div>
+      </div>
+
+      <div className="dark mhui:flex mhui:flex-col mhui:gap-4 mhui:bg-slate-950 mhui:p-6">
+        <h3 className="mhui:text-base mhui:font-semibold mhui:text-slate-100">Dark Mode</h3>
+        <div className="mhui:flex mhui:flex-wrap mhui:items-center mhui:gap-3">
+          {variants.map((variant) => (
+            <Button key={`dark-${variant}`} variant={variant} icon={Download}>
+              {variant}
+            </Button>
+          ))}
+        </div>
+      </div>
     </div>
   ),
 };

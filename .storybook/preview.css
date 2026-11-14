@@ -1,0 +1,16 @@
+html,
+body {
+  background-color: #ffffff;
+  color: #0f172a;
+  transition:
+    background-color 150ms ease-in-out,
+    color 150ms ease-in-out;
+}
+
+html.dark,
+html.dark body,
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background-color: #020617;
+  color: #f8fafc;
+}

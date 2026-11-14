@@ -27,6 +27,7 @@ by Next.js (App Router) or pure React frontend applications.
   Strictly apply these Tailwind classes when designing default variants. Prefer using spacing instead of borders to
   separate objects. Do not use rounded corner. The style should be modern and simple, but very professional.
 - **Tailwind Class Prefix:** Always prefix all Tailwind CSS classes and variant chains with `mhui:` (e.g., `mhui:bg-blue-900`, `mhui:hover:before:scale-x-100`) to prevent style collisions in consuming applications.
+- **Light & Dark Mode:** All components must support both light and dark mode using `mhui:dark:*` utility classes. Dark mode is triggered via `.dark` or `[data-theme="dark"]` selectors configured in `src/index.css`.
 - **Tests:** Implement tests where real behaviour is tested. Do not test simple visual appearance.
 
 ## 4. File Structure Constraints

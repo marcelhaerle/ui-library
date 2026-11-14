@@ -15,6 +15,7 @@ export const buttonVariants = cva(
     'mhui:before:origin-left mhui:before:scale-x-0 mhui:before:transition-transform mhui:before:duration-300 mhui:before:ease-in-out',
     'mhui:hover:before:scale-x-100',
     'mhui:focus-visible:outline-none mhui:focus-visible:ring-2 mhui:focus-visible:ring-offset-2',
+    'mhui:dark:focus-visible:ring-offset-slate-950',
     'mhui:disabled:pointer-events-none mhui:disabled:opacity-50',
     'mhui:cursor-pointer',
   ],
@@ -22,18 +23,18 @@ export const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          'mhui:bg-blue-900 mhui:text-white mhui:before:bg-blue-700 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900',
+          'mhui:bg-blue-900 mhui:text-white mhui:before:bg-blue-700 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900 mhui:dark:bg-blue-800 mhui:dark:before:bg-blue-600 mhui:dark:active:before:bg-blue-900 mhui:dark:focus-visible:ring-blue-400',
         secondary:
-          'mhui:bg-slate-600 mhui:text-white mhui:before:bg-slate-500 mhui:active:before:bg-slate-700 mhui:focus-visible:ring-slate-600',
+          'mhui:bg-slate-600 mhui:text-white mhui:before:bg-slate-500 mhui:active:before:bg-slate-700 mhui:focus-visible:ring-slate-600 mhui:dark:bg-slate-700 mhui:dark:text-slate-100 mhui:dark:before:bg-slate-600 mhui:dark:active:before:bg-slate-800 mhui:dark:focus-visible:ring-slate-400',
         outline:
-          'mhui:border mhui:border-blue-900 mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-white mhui:before:bg-blue-900 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900',
-        text: 'mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-blue-950 mhui:before:bg-blue-100 mhui:active:before:bg-blue-200 mhui:focus-visible:ring-blue-900',
+          'mhui:border mhui:border-blue-900 mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-white mhui:before:bg-blue-900 mhui:active:before:bg-blue-950 mhui:focus-visible:ring-blue-900 mhui:dark:border-blue-400 mhui:dark:text-blue-300 mhui:dark:hover:text-white mhui:dark:before:bg-blue-800 mhui:dark:active:before:bg-blue-900 mhui:dark:focus-visible:ring-blue-400',
+        text: 'mhui:bg-transparent mhui:text-blue-900 mhui:hover:text-blue-950 mhui:before:bg-blue-100 mhui:active:before:bg-blue-200 mhui:focus-visible:ring-blue-900 mhui:dark:text-blue-300 mhui:dark:hover:text-white mhui:dark:before:bg-blue-950/80 mhui:dark:active:before:bg-blue-900 mhui:dark:focus-visible:ring-blue-400',
         success:
-          'mhui:bg-emerald-800 mhui:text-white mhui:before:bg-emerald-600 mhui:active:before:bg-emerald-900 mhui:focus-visible:ring-emerald-800',
+          'mhui:bg-emerald-800 mhui:text-white mhui:before:bg-emerald-600 mhui:active:before:bg-emerald-900 mhui:focus-visible:ring-emerald-800 mhui:dark:bg-emerald-700 mhui:dark:before:bg-emerald-600 mhui:dark:active:before:bg-emerald-800 mhui:dark:focus-visible:ring-emerald-400',
         warning:
-          'mhui:bg-amber-600 mhui:text-white mhui:before:bg-amber-500 mhui:active:before:bg-amber-700 mhui:focus-visible:ring-amber-600',
+          'mhui:bg-amber-600 mhui:text-white mhui:before:bg-amber-500 mhui:active:before:bg-amber-700 mhui:focus-visible:ring-amber-600 mhui:dark:bg-amber-600 mhui:dark:before:bg-amber-500 mhui:dark:active:before:bg-amber-700 mhui:dark:focus-visible:ring-amber-400',
         danger:
-          'mhui:bg-red-700 mhui:text-white mhui:before:bg-red-600 mhui:active:before:bg-red-800 mhui:focus-visible:ring-red-700',
+          'mhui:bg-red-700 mhui:text-white mhui:before:bg-red-600 mhui:active:before:bg-red-800 mhui:focus-visible:ring-red-700 mhui:dark:bg-red-700 mhui:dark:before:bg-red-600 mhui:dark:active:before:bg-red-800 mhui:dark:focus-visible:ring-red-400',
       },
       size: {
         xs: 'mhui:h-7 mhui:px-2.5 mhui:text-xs mhui:gap-1.5',
