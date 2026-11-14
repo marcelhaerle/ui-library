@@ -48,5 +48,6 @@ Refer to [ROADMAP.md](./ROADMAP.md) for the planned phases, component specificat
 ## 5. Component Roadmap
 
 Refer to [ROADMAP.md](./ROADMAP.md) for the planned phases, component specifications, and expected TypeScript props. When implementing a component listed in `ROADMAP.md`:
+
 - Follow its specified props and variants as the baseline contract.
 - Mark the component as completed (`✅ *(Completed)*`) in `ROADMAP.md` once implemented and tested.
