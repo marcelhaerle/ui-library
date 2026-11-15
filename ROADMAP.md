@@ -278,7 +278,7 @@ Non-blocking transient notifications queued at the viewport corner.
 
 Components for moving between views, sections, and datasets in React and Next.js applications.
 
-### 20. `Tabs` (`Tabs`, `TabList`, `TabTrigger`, `TabContent`)
+### 20. `Tabs` (`Tabs`, `TabList`, `TabTrigger`, `TabContent`) ✅ _(Completed)_
 
 Roving-tabindex keyboard-accessible tabbed interface (`ArrowLeft` / `ArrowRight` / `Home` / `End`).
 
