@@ -336,7 +336,7 @@ Responsive top application navigation bar (`<header>` + `<nav aria-label="Main n
   - `icon` (on `NavbarItem`): `LucideIcon`
   - `disabled` (on `NavbarItem`): `boolean`
 
-### 25. `Sidebar` (`Sidebar`, `SidebarHeader`, `SidebarContent`, `SidebarGroup`, `SidebarItem`, `SidebarFooter`)
+### 25. `Sidebar` (`Sidebar`, `SidebarHeader`, `SidebarContent`, `SidebarGroup`, `SidebarItem`, `SidebarFooter`) ✅ _(Completed)_
 
 Vertical application navigation rail (`<aside>` + `<nav aria-label="Sidebar navigation">`) for dashboards and multi-section workspaces, supporting section groups, status/counter badges, and collapsible icon-only mode.
 
