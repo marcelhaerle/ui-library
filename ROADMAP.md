@@ -320,13 +320,55 @@ Action menu triggered by a button (`role="menu"`, arrow-key navigation, typeahea
   - `align`: `'start' | 'center' | 'end'`
   - `items`: `Array<{ id: string; label: ReactNode; icon?: LucideIcon; danger?: boolean; disabled?: boolean; onSelect: () => void }>`
 
+### 24. `Navbar` (`Navbar`, `NavbarBrand`, `NavbarContent`, `NavbarItem`, `NavbarToggle`, `NavbarMobileMenu`)
+
+Responsive top application navigation bar (`<header>` + `<nav aria-label="Main navigation">`) with brand slot, horizontal navigation links, right-aligned utility/action slot, and collapsible mobile menu.
+
+- **Key Props**:
+  - `variant`: `'surface' | 'primary' | 'elevated'` (default: `'surface'`)
+  - `sticky`: `boolean` (default: `false`)
+  - `maxWidth`: `'sm' | 'md' | 'lg' | 'xl' | 'full'` (default: `'xl'`)
+  - `mobileMenuOpen` / `defaultMobileMenuOpen`: `boolean`
+  - `onMobileMenuOpenChange`: `(open: boolean) => void`
+  - `align` (on `NavbarContent`): `'start' | 'center' | 'end'` (default: `'start'`)
+  - `href` (on `NavbarItem`): `string`
+  - `active` (on `NavbarItem`): `boolean` (`aria-current="page"`)
+  - `icon` (on `NavbarItem`): `LucideIcon`
+  - `disabled` (on `NavbarItem`): `boolean`
+
+### 25. `Sidebar` (`Sidebar`, `SidebarHeader`, `SidebarContent`, `SidebarGroup`, `SidebarItem`, `SidebarFooter`)
+
+Vertical application navigation rail (`<aside>` + `<nav aria-label="Sidebar navigation">`) for dashboards and multi-section workspaces, supporting section groups, status/counter badges, and collapsible icon-only mode.
+
+- **Key Props**:
+  - `collapsed` / `defaultCollapsed`: `boolean` (default: `false`)
+  - `onCollapsedChange`: `(collapsed: boolean) => void`
+  - `width`: `'sm' | 'md' | 'lg'` (default: `'md'`)
+  - `label` (on `SidebarGroup`): `ReactNode`
+  - `href` (on `SidebarItem`): `string`
+  - `active` (on `SidebarItem`): `boolean` (`aria-current="page"`)
+  - `icon` (on `SidebarItem`): `LucideIcon`
+  - `badge` (on `SidebarItem`): `ReactNode`
+  - `disabled` (on `SidebarItem`): `boolean`
+
+### 26. `CommandPalette`
+
+Keyboard-first global navigation and action launcher (`role="dialog"` + combobox search, arrow-key navigation across grouped commands, and `Escape` dismissal).
+
+- **Key Props**:
+  - `open`: `boolean`
+  - `onOpenChange`: `(open: boolean) => void`
+  - `placeholder`: `string` (default: `'Search pages or commands...'`)
+  - `groups`: `Array<{ id: string; heading: ReactNode; items: Array<{ id: string; label: ReactNode; description?: ReactNode; icon?: LucideIcon; shortcut?: string; disabled?: boolean; onSelect: () => void }> }>`
+  - `emptyState`: `ReactNode`
+
 ---
 
 ## Phase 6: Data Display & Complex Composites
 
 Rich components for displaying structured records, metrics, and user identities.
 
-### 24. `Avatar` ✅ _(Completed)_
+### 27. `Avatar` ✅ _(Completed)_
 
 User or entity representation with image, initials fallback, and status indicator.
 
@@ -337,7 +379,7 @@ User or entity representation with image, initials fallback, and status indicato
   - `size`: `'xs' | 'sm' | 'md' | 'lg' | 'xl'`
   - `status`: `'online' | 'offline' | 'busy' | 'away'`
 
-### 25. `Table` / `DataTable` ✅ _(Completed)_
+### 28. `Table` / `DataTable` ✅ _(Completed)_
 
 Structured tabular data display with sorting, row selection, and empty/loading states.
 
@@ -354,7 +396,7 @@ Structured tabular data display with sorting, row selection, and empty/loading s
   - `loading`: `boolean`
   - `emptyState`: `ReactNode`
 
-### 26. `ProgressBar` ✅ _(Completed)_
+### 29. `ProgressBar` ✅ _(Completed)_
 
 Linear completion indicator (`role="progressbar"`).
 
@@ -366,7 +408,7 @@ Linear completion indicator (`role="progressbar"`).
   - `showValueLabel`: `boolean`
   - `indeterminate`: `boolean`
 
-### 27. `EmptyState` ✅ _(Completed)_
+### 30. `EmptyState` ✅ _(Completed)_
 
 Placeholder block when lists, tables, or search results return no data.
 
