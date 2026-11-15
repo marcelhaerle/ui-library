@@ -1,12 +1,12 @@
 # Changelog
 
-All notable changes to `@haerlemarcel/ui-library` are documented in this file.
+All notable changes to `@marcelhaerle/ui-library` are documented in this file.
 
 ## [0.1.0] - 2026-11-15
 
 ### Initial Release (`v0.1.0`)
 
-First public release of **`@haerlemarcel/ui-library`**, an accessible, modern React 19+ and Next.js (App Router) UI component library built with TypeScript, Tailwind CSS v4 (`mhui:` prefix isolation), and `class-variance-authority`.
+First public release of **`@marcelhaerle/ui-library`**, an accessible, modern React 19+ and Next.js (App Router) UI component library built with TypeScript, Tailwind CSS v4 (`mhui:` prefix isolation), and `class-variance-authority`.
 
 ### Highlights
 
