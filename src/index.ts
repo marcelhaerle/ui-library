@@ -17,6 +17,7 @@ export * from './components/Grid';
 export * from './components/Input';
 export * from './components/Label';
 export * from './components/Modal';
+export * from './components/Navbar';
 export * from './components/Pagination';
 export * from './components/ProgressBar';
 export * from './components/RadioGroup';

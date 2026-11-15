@@ -320,7 +320,7 @@ Action menu triggered by a button (`role="menu"`, arrow-key navigation, typeahea
   - `align`: `'start' | 'center' | 'end'`
   - `items`: `Array<{ id: string; label: ReactNode; icon?: LucideIcon; danger?: boolean; disabled?: boolean; onSelect: () => void }>`
 
-### 24. `Navbar` (`Navbar`, `NavbarBrand`, `NavbarContent`, `NavbarItem`, `NavbarToggle`, `NavbarMobileMenu`)
+### 24. `Navbar` (`Navbar`, `NavbarBrand`, `NavbarContent`, `NavbarItem`, `NavbarToggle`, `NavbarMobileMenu`) ✅ _(Completed)_
 
 Responsive top application navigation bar (`<header>` + `<nav aria-label="Main navigation">`) with brand slot, horizontal navigation links, right-aligned utility/action slot, and collapsible mobile menu.
 
