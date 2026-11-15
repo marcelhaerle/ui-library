@@ -250,7 +250,7 @@ Edge-anchored slide-over panel for filters, details, or mobile navigation.
   - `size`: `'sm' | 'md' | 'lg' | 'xl'`
   - `title`: `ReactNode`
 
-### 18. `Tooltip`
+### 18. `Tooltip` ✅ _(Completed)_
 
 Keyboard- and hover-accessible contextual hint (`role="tooltip"`).
 
