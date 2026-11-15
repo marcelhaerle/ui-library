@@ -2,6 +2,14 @@
 
 An accessible, modern React 19+ and Next.js (App Router) UI component library built with TypeScript and Tailwind CSS v4.
 
+## Documentation & Storybook
+
+Browse interactive component stories, variants, and documentation on GitHub Pages:
+
+**[https://marcelhaerle.github.io/ui-library/](https://marcelhaerle.github.io/ui-library/)**
+
+---
+
 ## Installation
 
 ```bash
