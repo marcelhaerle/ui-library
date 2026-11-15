@@ -289,7 +289,7 @@ Roving-tabindex keyboard-accessible tabbed interface (`ArrowLeft` / `ArrowRight`
   - `size`: `'sm' | 'md' | 'lg'`
   - `orientation`: `'horizontal' | 'vertical'` (default: `'horizontal'`)
 
-### 21. `Breadcrumbs` (`Breadcrumbs`, `BreadcrumbItem`)
+### 21. `Breadcrumbs` (`Breadcrumbs`, `BreadcrumbItem`) ✅ _(Completed)_
 
 Hierarchical path navigation (`aria-label="Breadcrumb"`).
 
