@@ -13,6 +13,7 @@ export * from './components/Grid';
 export * from './components/Input';
 export * from './components/Label';
 export * from './components/Modal';
+export * from './components/Pagination';
 export * from './components/RadioGroup';
 export * from './components/Select';
 export * from './components/Skeleton';

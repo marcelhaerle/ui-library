@@ -299,7 +299,7 @@ Hierarchical path navigation (`aria-label="Breadcrumb"`).
   - `href`: `string`
   - `current`: `boolean` (`aria-current="page"`)
 
-### 22. `Pagination`
+### 22. `Pagination` ✅ _(Completed)_
 
 Page navigation controls for paginated lists and tables.
 
