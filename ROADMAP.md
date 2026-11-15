@@ -311,7 +311,7 @@ Page navigation controls for paginated lists and tables.
   - `showFirstLast`: `boolean` (default: `true`)
   - `size`: `'sm' | 'md' | 'lg'`
 
-### 23. `DropdownMenu`
+### 23. `DropdownMenu` ✅ _(Completed)_
 
 Action menu triggered by a button (`role="menu"`, arrow-key navigation, typeahead support).
 
