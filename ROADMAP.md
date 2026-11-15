@@ -351,7 +351,7 @@ Vertical application navigation rail (`<aside>` + `<nav aria-label="Sidebar navi
   - `badge` (on `SidebarItem`): `ReactNode`
   - `disabled` (on `SidebarItem`): `boolean`
 
-### 26. `CommandPalette`
+### 26. `CommandPalette` ✅ _(Completed)_
 
 Keyboard-first global navigation and action launcher (`role="dialog"` + combobox search, arrow-key navigation across grouped commands, and `Escape` dismissal).
 
