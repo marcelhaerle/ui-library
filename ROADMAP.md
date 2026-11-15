@@ -326,7 +326,7 @@ Action menu triggered by a button (`role="menu"`, arrow-key navigation, typeahea
 
 Rich components for displaying structured records, metrics, and user identities.
 
-### 24. `Avatar`
+### 24. `Avatar` ✅ _(Completed)_
 
 User or entity representation with image, initials fallback, and status indicator.
 
