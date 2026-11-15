@@ -337,7 +337,7 @@ User or entity representation with image, initials fallback, and status indicato
   - `size`: `'xs' | 'sm' | 'md' | 'lg' | 'xl'`
   - `status`: `'online' | 'offline' | 'busy' | 'away'`
 
-### 25. `Table` / `DataTable`
+### 25. `Table` / `DataTable` ✅ _(Completed)_
 
 Structured tabular data display with sorting, row selection, and empty/loading states.
 
