@@ -226,7 +226,7 @@ Inline contextual feedback banner (`role="alert"` or `role="status"`).
   - `onDismiss`: `() => void`
   - `action`: `ReactNode`
 
-### 16. `Modal` / `Dialog` (`Modal`, `ModalHeader`, `ModalBody`, `ModalFooter`)
+### 16. `Modal` / `Dialog` (`Modal`, `ModalHeader`, `ModalBody`, `ModalFooter`) ✅ _(Completed)_
 
 Accessible dialog overlay (`role="dialog"`, `aria-modal="true"`) with focus trapping, `Escape` key dismissal, and scroll locking.
 
