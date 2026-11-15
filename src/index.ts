@@ -6,6 +6,7 @@ export * from './components/Badge';
 export * from './components/Button';
 export * from './components/Card';
 export * from './components/Checkbox';
+export * from './components/Drawer';
 export * from './components/FormField';
 export * from './components/Grid';
 export * from './components/Input';

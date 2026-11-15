@@ -239,7 +239,7 @@ Accessible dialog overlay (`role="dialog"`, `aria-modal="true"`) with focus trap
   - `title`: `ReactNode`
   - `description`: `ReactNode`
 
-### 17. `Drawer` / `Sheet`
+### 17. `Drawer` / `Sheet` ✅ _(Completed)_
 
 Edge-anchored slide-over panel for filters, details, or mobile navigation.
 
