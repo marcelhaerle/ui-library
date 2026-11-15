@@ -260,7 +260,7 @@ Keyboard- and hover-accessible contextual hint (`role="tooltip"`).
   - `delayMs`: `number` (default: `200`)
   - `disabled`: `boolean`
 
-### 19. `Toast` / `Toaster`
+### 19. `Toast` / `Toaster` ✅ _(Completed)_
 
 Non-blocking transient notifications queued at the viewport corner.
 

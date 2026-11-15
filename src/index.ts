@@ -19,5 +19,6 @@ export * from './components/Spinner';
 export * from './components/Stack';
 export * from './components/Switch';
 export * from './components/Textarea';
+export * from './components/Toast';
 export * from './components/Tooltip';
 export * from './components/Typography';
