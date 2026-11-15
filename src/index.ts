@@ -11,6 +11,7 @@ export * from './components/Checkbox';
 export * from './components/DataTable';
 export * from './components/Drawer';
 export * from './components/DropdownMenu';
+export * from './components/EmptyState';
 export * from './components/FormField';
 export * from './components/Grid';
 export * from './components/Input';

@@ -366,7 +366,7 @@ Linear completion indicator (`role="progressbar"`).
   - `showValueLabel`: `boolean`
   - `indeterminate`: `boolean`
 
-### 27. `EmptyState`
+### 27. `EmptyState` ✅ _(Completed)_
 
 Placeholder block when lists, tables, or search results return no data.
 
